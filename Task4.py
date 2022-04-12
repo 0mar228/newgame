@@ -2,10 +2,14 @@ import math
 q = int(input('Введите угол A'))
 a = math.radians(q)
 n = math.sin(a)
-print('Синуc:',n)
+g = round(n, 3)
+print('Синуc:',g)
 m = math.cos(a)
-print('Косинус:',m)
-c = n/m
-print('Тангенс:',c)
-d = m/n
-print('Котангенс:',d)
+l = round(m, 3)
+print('Косинус:',l)
+c = g/l
+h = round(c, 3)
+print('Тангенс:',h)
+d = l/g
+f = round(d, 3)
+print('Котангенс:',f)
